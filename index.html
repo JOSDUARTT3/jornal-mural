@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <link rel="stylesheet" href="style.css" media="all">
+    <link rel="stylesheet" href="retrato.css" media="screen and (orientation:portrait)">
+    <link rel="stylesheet" href="paisagem.css" media="screen and (orientation:landscape)">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body onresize="tamanho()">
+    <header>
+
+        <h1>Jornal Mural</h1>
+        <img src="imagens/menu_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png" class="hambu" onclick="clicar()">
+
+        <nav class="nav"><a href="pag2.html" class="a">Home</a></nav>
+
+        <nav class="nav"><a href="pag3.html" class="a">Imagens</a></nav>
+
+        <nav  class="nav"><a href="pag4.html" class="a"> 
+            
+            Definições</a></nav>
+
+
+            
+                
+             
+           <nav id="menu">
+            <a href="pag2.html" class="me" >Home</a> <br>
+            <a href="pag3.html" class="me">Imagens</a> <br>
+            <a href="pag4.html" class="me" >Definições</a>
+        
+           </nav>
+
+        
+            
+
+        
+                
+                    
+                   
+                
+            
+
+    </header>
+
+    
+    <hr>
+    <main>
+        <div class="di" id="q1">
+            <h1>Outubro Rosa</h1>
+            
+      <p>Para mais Informações clique em <b>Home,Informações ou Imagens</b></p>
+        </div>
+
+        <div class="di" id="q2" >
+            <h1>Novembro Azul</h1>          
+            <p>Para mais Informações clique em <b>Home,Informações ou Imagens</b></p>
+            
+
+        </div>
+
+        <div class="di" id="q3">
+            <h1>Desporto</h1>
+            <p>Para mais Informações clique em <b>Home,Informações ou Imagens</b></p>
+
+        </div>
+
+        <div class="di" id="q4">
+            <h1>Estudos</h1>
+            <p>Para mais Informações clique em <b>Home,Informações ou Imagens</b></p>
+
+        </div>
+      
+    </main>
+    <table class="table1" >
+        <tr>
+            <th>
+            <img src="imagens/istockphoto-1347653184-1024x1024.jpg" alt="">
+            </th>
+            <th>
+              <p>Aqui tens os alunos do colégio em determinadas aulas isto em um campo desportivo e uma sala de aula.</p>
+            </th>
+            <th>
+             <img src="imagens/istockphoto-1409722748-1024x1024.jpg" alt="">
+            </th>
+        </tr>
+    </table>
+    
+    <table class="table">
+        <tr>
+            <th>
+                <p>Aqui tens o símbolo do Outubro Rosa e do Novembro Azul.demostrando o respeito para com as datas referidas. 
+                </p>
+            </th>
+            <th> 
+                <img src="imagens/istockphoto-1724575995-1024x1024.jpg" alt="">
+            </th>
+            <th>
+                <th>
+                    <img src="imagens/istockphoto-1345312586-1024x1024.jpg" alt="">
+                </th>
+            </th>
+           
+        </tr>
+    </table>
+
+    
+    
+
+    <footer>
+        <p >
+        &copy;José Raúl Filipe Duarte
+        </p>
+      </footer>
+        
+ <script>
+ function clicar(){
+    if(menu.style.display=='none'){
+        menu.style.display='block'
+    }else{
+        menu.style.display='none'
+    }
+}
+function tamanho(){
+    if(window.innerWidth>=768){
+      hambu.style.display="block"  
+    }else{
+        hambu.style.display="none"
+    }
+}
+
+ </script>
+    
+     
+</body>
+</html

@@ -1,0 +1,876 @@
+@charset "UTF-8";
+body{
+    background-color: rgb(187, 182, 182);
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: lightskyblue;
+    padding: 20px;
+    margin: 0px;
+
+    
+}
+li{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+h1{
+    text-align: right;
+    margin-right: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+    display: inline-block;
+    margin: 5px;
+    margin-left: 60px;
+}
+.a{
+    
+    text-decoration: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: black;
+    font-size: 1.2em;
+}
+.a:hover{
+    background-color: lightgray;
+    padding: 10px;
+    border-radius:20px;
+    transition: .4s ease-in-out;
+}
+main{
+    margin-top: 50px;
+    margin-left: 45px;
+    
+}
+div:hover{
+    transform: translateY(-30px);
+}
+div{
+    transition: .4s ease-in-out;
+}
+#q1 h1 {
+color: rgb(241, 121, 141);
+background-color: lightgray;
+ margin: 1px;
+ padding: 10px;
+ border-radius: 20px;
+}
+a{
+    text-decoration:none;
+    color:black;
+    font-family:verdana;
+}
+#q2 h1{
+    color:blue;
+    background-color: lightgray;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#q3 h1{
+    background-color: lightgray;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+#q4 h1{
+    background-color: lightgray;
+    margin: 1px;
+    padding: 10px;
+    border-radius: 20px;
+}
+div{
+    margin: auto;
+    background-color:rgb(155, 149, 149);
+    box-shadow: 5px -2px 10px black;
+    
+}
+div p{
+    color:black;
+    margin: 5px;
+    font-size: 1.2em;
+}
+p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.1em;
+}
+div h1{
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+div hr{
+    border: 1px solid black;
+    
+}
+footer{
+    text-align: center;
+    
+}
+
+
+.di{
+   border: 0.0px solid ;
+   height: 300px;
+   width: 300px;
+   display:inline-block;
+   margin: 5px;
+   border-radius: 20px;
+
+}
+hr{
+    border: 2px solid black;
+    margin: 0px;
+    
+}
+.table{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+}
+table p{
+    font-size: 1.2em;
+    height: 20px;
+    
+   
+
+}
+.tab{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+}
+table img{
+    height: 300px;
+}
+aside div{
+    display: flex;
+
+}
+.table1{
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+
+}
+table{
+    margin-top: 5px;
+}
+
+img{
+    width: 400px;
+    border-radius: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.out h1{
+    margin-top: 0px;
+    padding:30px;
+    background-color: rgb(218, 74, 98);
+    color: white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.out p{
+    margin-top: 10px;
+}
+
+.out{
+    border-radius: 20px;
+    margin:0px;
+    background-color: white;
+    
+    padding: 30px;
+    border: 1px solid white;
+    
+
+}
+.img img{
+    width:300px;
+    animation:  img 8s linear infinite;
+}
+.imgs img{
+    width: 300px;
+    animation: imgs 8s linear infinite;
+}
+@keyframes img{
+    from{
+        transform: translateX(-50%);
+
+    }
+    to{
+        transform: translateX(500%);
+    }
+    
+    
+    
+}
+@keyframes imgs{
+    from{
+        transform: translateX(-500%);
+        transform: translateX(500%);
+    
+
+    }
+    to{
+        transform: translateX(-50%);
+        transform: translateX(50%);
+    }
+         }
+         /*estilizando meu menu*/
+    #menu{
+        display:none;
+        color:black;
+        background-color: rgba(0, 0, 0, 0.253);
+        width: 90vw;
+        height: 100vh;
+        border-radius: 10px;
+        margin-left: 0px;
+        transition: .3s ease-in-out;
+        margin: auto;
+        
+        
+        
+    }
+    .me:hover{
+        background-color: lightskyblue;
+        width: 90vw;
+        height: 40px;
+    }
+    .me{
+        
+        font-size: 1.4em;
+        margin-left: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        display: inline-block;
+        color: black;
+        font-weight: bold;
+        margin-top: 50px;
+
+        width: 3vw;
+      
+    }
+    .hambu{
+        width:35px;
+        height:30px;
+        text-align:center;
+        cursor:pointer;
+        margin-left:0vw;
+        transition: .3s ease;
+        
+    
+
+    }
+         
+         @media screen  and (max-width:600px){
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            .di{
+            
+                
+                border: 0.0px solid ;
+                height: 100px;
+                width: 170px;
+                
+                display:inline-block;
+                  /*configurando o header*/
+                border-radius: 6px;}
+                  h1{
+                    font-size: 20px;
+                  }
+                  .hambu{
+                    display: block;
+                  }
+                  .nav{
+                    display: none;
+                    margin: 5px;
+                    margin-left: 15px;
+                  }
+                  nav{
+                    font-size: 12px;
+                    
+
+                  }
+                #q1 h1 {
+                    color: rgb(241, 121, 141);
+                    background-color: lightgray;
+                     margin: 1px;
+                     padding: 3px;
+                     border-radius: 4px;
+                     font-size: 16px;
+                    }
+                    #q2 h1{
+                        color:blue;
+                        background-color: lightgray;
+                        margin: 1px;
+                        padding: 3px;
+                        border-radius: 3px;
+                        font-size: 16px;
+                    }
+                    #q3 h1{
+                        background-color: lightgray;
+                        margin: 1px; 
+                        padding: 3px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                    #q4 h1{
+                        background-color : lightgray;
+                        margin: 1px;
+                        padding: 3px;
+                        border-radius: 20px;
+                        font-size: 16px;
+                    }
+                    #q1 p{
+                        font-size: 9px;
+                    }
+                    #q2 p{
+                        font-size: 9px;
+                    }
+                    #q3 p{
+                        font-size: 9px;
+                    }
+                    #q4{
+                        font-size: 9px;
+                    }
+                    /*configurando imagens*/
+                    
+.table{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+}
+table p{
+    font-size: 8px;
+    
+    
+   
+
+}
+.tab{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+    
+}
+p{
+    font-size:12px;
+}
+
+table img{
+    height: 100px;
+    width: 110px;
+}
+aside div{
+    display: flex;
+
+}
+.table1{
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+
+}
+table{
+    margin-top: 5px;
+}
+footer p{
+    font-size: 16px;
+}
+/*configurando as css da introdução*/
+iframe{
+    margin-top: 8px;
+  margin-left: 15vw;
+  width: 400px
+  ;
+  height: 200px;
+  border-radius: 10px;
+  /*configurando imagens*/
+ 
+
+ }
+   }
+   
+   @media screen and (max-width:768px) and (min-width:600px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .di{
+    
+        
+        border: 0.0px solid ;
+        height: 100px;
+        width: 170px;
+        
+        display:inline-block;
+          /*configurando o header*/
+        border-radius: 6px;}
+          h1{
+            font-size: 20px;
+          }
+          .nav{
+            display: none;
+            margin: 5px;
+            margin-left: 15px;
+          }
+          nav{
+            font-size: 12px;
+            
+
+          }
+        #q1 h1 {
+            color: rgb(241, 121, 141);
+            background-color: lightgray;
+             margin: 1px;
+             padding: 3px;
+             border-radius: 4px;
+             font-size: 16px;
+            }
+            #q2 h1{
+                color:blue;
+                background-color: lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 3px;
+                font-size: 16px;
+            }
+            #q3 h1{
+                background-color: lightgray;
+                margin: 1px; 
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q4 h1{
+                background-color : lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q1 p{
+                font-size: 9px;
+            }
+            #q2 p{
+                font-size: 9px;
+            }
+            #q3 p{
+                font-size: 9px;
+            }
+            #q4{
+                font-size: 9px;
+            }
+            /*configurando imagens*/
+            
+.table{
+
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: flex;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+}
+table p{
+font-size: 8px;
+
+
+
+
+}
+.tab{
+
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: flex;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+
+}
+p{
+font-size:12px;
+}
+
+table img{
+height: 100px;
+width: 110px;
+}
+aside div{
+display: flex;
+
+}
+.table1{
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: inline-block;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+
+}
+table{
+margin-top: 5px;
+}
+footer p{
+font-size: 16px;
+}
+/*configurando as css da introdução*/
+iframe{
+margin-top: 8px;
+margin-left: 15vw;
+width: 400px
+;
+height: 200px;
+border-radius: 10px;
+/*configurando imagens*/
+
+
+}
+}
+ @media screen and (max-width:992px) and (min-width:768px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .di{
+    
+        
+        border: 0.0px solid ;
+        height: 100px;
+        width: 170px;
+        
+        display:inline-block;
+          /*configurando o header*/
+        border-radius: 6px;}
+          h1{
+            font-size: 20px;
+          }
+          .nav{
+            display: inline-block;
+            margin: 5px;
+            margin-left: 15px;
+          }
+          .hambu{
+            display:none;
+          }
+          .menu{
+            display: none;
+          }
+          nav{
+            font-size: 12px;
+            
+
+          }
+        #q1 h1 {
+            color: rgb(241, 121, 141);
+            background-color: lightgray;
+             margin: 1px;
+             padding: 3px;
+             border-radius: 4px;
+             font-size: 16px;
+            }
+            #q2 h1{
+                color:blue;
+                background-color: lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 3px;
+                font-size: 16px;
+            }
+            #q3 h1{
+                background-color: lightgray;
+                margin: 1px; 
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q4 h1{
+                background-color : lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q1 p{
+                font-size: 9px;
+            }
+            #q2 p{
+                font-size: 9px;
+            }
+            #q3 p{
+                font-size: 9px;
+            }
+            #q4{
+                font-size: 9px;
+            }
+                         
+.table{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+}
+table p{
+    font-size: 8px;
+    
+    
+   
+
+}
+.tab{
+    
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: flex;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+    
+}
+p{
+    font-size:12px;
+}
+
+table img{
+    height: 150px;
+    width: 200px;
+}
+aside div{
+    display: flex;
+
+}
+.table1{
+    background-color:rgb(155, 149, 149);
+    padding: 10px;
+    display: inline-block;
+    border-radius: 20px;
+    margin:50px 40px 40px 50px;
+    margin-right: 80px;
+    box-shadow: 5px -2px 10px black;
+
+}
+table{
+    margin-top: 5px;
+}
+footer p{
+    font-size: 16px;
+}
+/*configurando as css da introdução*/
+iframe{
+    margin-top: 8px;
+  margin-left: 15vw;
+  width: 400px
+  ;
+  height: 200px;
+  border-radius: 10px;
+  
+
+}     }   
+
+@media screen and (max-width:1200) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    li{
+        font-size: 1.5em;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    }
+    .di{
+    
+        
+        border: 0.0px solid ;
+        height: 100px;
+        width: 170px;
+        
+        display:inline-block;
+          /*configurando o header*/
+        border-radius: 6px;}
+          h1{
+            font-size: 20px;
+          }
+          .nav{
+            display: inline-block;
+            margin: 5px;
+            margin-left: 15px;
+          }
+          .hambu{
+            display:none;
+          }
+          nav{
+            font-size: 12px;
+            
+
+          }
+        #q1 h1 {
+            color: rgb(241, 121, 141);
+            background-color: lightgray;
+             margin: 1px;
+             padding: 3px;
+             border-radius: 4px;
+             font-size: 16px;
+            }
+            #q2 h1{
+                color:blue;
+                background-color: lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 3px;
+                font-size: 16px;
+            }
+            #q3 h1{
+                background-color: lightgray;
+                margin: 1px; 
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q4 h1{
+                background-color : lightgray;
+                margin: 1px;
+                padding: 3px;
+                border-radius: 20px;
+                font-size: 16px;
+            }
+            #q1 p{
+                font-size: 9px;
+            }
+            #q2 p{
+                font-size: 9px;
+            }
+            #q3 p{
+                font-size: 9px;
+            }
+            #q4{
+                font-size: 9px;
+            }
+            /*configurando imagens*/
+            
+.table{
+
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: flex;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+}
+table p{
+font-size: 8px;
+
+
+
+
+}
+.tab{
+
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: flex;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+
+}
+p{
+font-size:12px;
+}
+
+table img{
+height: 100px;
+width: 110px;
+}
+aside div{
+display: flex;
+
+}
+.table1{
+background-color:rgb(155, 149, 149);
+padding: 10px;
+display: inline-block;
+border-radius: 20px;
+margin:50px 40px 40px 50px;
+margin-right: 80px;
+box-shadow: 5px -2px 10px black;
+
+}
+table{
+margin-top: 5px;
+}
+footer p{
+font-size: 16px;
+}
+/*configurando as css da introdução*/
+iframe{
+margin-top: 8px;
+margin-left: 15vw;
+width: 400px
+;
+height: 200px;
+border-radius: 10px;}
+.hambu{
+    width:40px;
+    height:50px;
+    text-align:center;
+    cursor:pointer;
+    margin-left:45vw;
+    display:none;
+
+
+}
+/*configurando imagens*/
+
+
+}
+
+       
+      
+     
